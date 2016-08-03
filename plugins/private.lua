@@ -3,7 +3,7 @@ local function do_keybaord_credits()
     keyboard.inline_keyboard = {
     	{
     		{text = 'Channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
-    		{text = 'GitHub', url = 'https://github.com/RememberTheAir/GroupButler'},
+    		{text = 'GitHub', url = 'https://github.com/Abbas81/MGA_API'},
     		{text = 'Rate me!', url = 'https://telegram.me/storebot?start='..bot.username},
 		}
 	}
